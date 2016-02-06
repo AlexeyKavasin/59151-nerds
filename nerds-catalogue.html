@@ -50,11 +50,11 @@
                   <div class="bar"></div>
                 </div>
                 <div class="toggle min-toggle"></div>
-                <div class="toggle max toggle"></div>
+                <div class="toggle max-toggle"></div>
               </div>
               <div class="price-controls">
                 от <input class="min-price" type="text" value="0">
-                до <input class="max-price" type="text" value="15 000">
+                до <input class="max-price" type="text" value="15000">
               </div>
 						</fieldset>
 
@@ -105,21 +105,21 @@
 					</form>
 				</section>
 
-				<section class="catalogue-column-right">
-				  <div class="sort">
-            <h4>Сортировать</h4>
-            <div class="sort-type">
-              <a href="">по цене</a>
-              <a href="">по типу</a>
-              <a href="">по функционалу</a>
-            </div>
-            <div class="sort-arrows">
-              <a href=""><i class="arrow-down"></i></a>
-              <a href=""><i class="arrow-up"></i></a>
-            </div>
+				<section class="catalogue-column-right clearfix">
+				  <div class="sort clearfix">
+            <span class="sort-title">Сортировать:</span>
+            <ul class="sort-type">
+              <li><a href="">по цене</a></li>
+              <li><a href="">по типу</a></li>
+              <li><a href="">по функционалу</a></li>
+            </ul>
+            <ul class="sort-arrows">
+              <li><a href=""><i class="arrow-down active-arrow">1</i></a></li>
+              <li><a href=""><i class="arrow-up">2</i></a></li>
+            </ul>
           </div>
 
-          <div class="items">
+          <div class="items clearfix">
 
             <div class="item">
               <img src="img/item-aviator.jpg" alt="item pic">
@@ -127,7 +127,7 @@
                 <h3>Aviator</h3>
                 <p>Одностраничный макет<br>
                 с авторским дизайном</p>
-                <a href="" class="btn">8000р.</a>
+                <a href="" class="btn buy-btn">8000 р.</a>
               </div>
             </div>
 
@@ -137,7 +137,7 @@
                 <h3>Sunset</h3>
                 <p>Интернет-магазин<br>
                 с личным кабинетом</p>
-                <a href="" class="btn">10000р.</a>
+                <a href="" class="btn buy-btn">10000 р.</a>
               </div>
             </div>
 
@@ -147,7 +147,7 @@
                 <h3>Forte</h3>
                 <p>Отличный макет<br>
                 для личного блога</p>
-                <a href="" class="btn">10000р.</a>
+                <a href="" class="btn buy-btn">10000 р.</a>
               </div>
             </div>
 
@@ -157,7 +157,7 @@
                 <h3>Modern Organic Thai</h3>
                 <p>Сайт для ресторана<br>
                 быстрого питания</p>
-                <a href="" class="btn">10000р.</a>
+                <a href="" class="btn buy-btn">10000 р.</a>
               </div>
             </div>
 
@@ -167,7 +167,7 @@
                 <h3>Avenue</h3>
                 <p>Макет для блога<br>
                 о путешествиях</p>
-                <a href="" class="btn">8000р.</a>
+                <a href="" class="btn buy-btn">8000 р.</a>
               </div>
             </div>
 
@@ -177,13 +177,13 @@
                 <h3>Dovetail</h3>
                 <p>Интернет-магазин<br>
                 с галереей товаров</p>
-                <a href="" class="btn">14000р.</a>
+                <a href="" class="btn buy-btn">14000 р.</a>
               </div>
             </div>
 
           </div>
-          <div class="items-controls">
-            <ul>
+          <div class="items-controls clearfix">
+            <ul class="items-controls-list">
               <li class="active">1</li>
               <li><a href="">2</a></li>
               <li><a href="">3</a></li>
@@ -207,9 +207,9 @@
 		<footer class="main-footer">
       <div class="container">
         <div class="footer-column-left">
-          <a href="#">Вконтакте</a>
-          <a href="#">Фейсбук</a>
-          <a href="#">Инстаграм</a>
+          <a href="#" class="btn-social btn-social-vk">Вконтакте</a>
+          <a href="#" class="btn-social btn-social-fb">Фейсбук</a>
+          <a href="#" class="btn-social btn-social-inst">Инстаграм</a>
         </div>
         <div class="footer-column-right">
           <h2>Давайте дружить, это выгодно!</h2>
