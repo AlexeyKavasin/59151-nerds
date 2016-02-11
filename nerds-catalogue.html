@@ -8,20 +8,21 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
 	<body>
+
 		<header class="main-header">
 			<div class="container">
     			<a class="logo" href="index.html">
-            <img src="img/logo.png" alt="Лого «Нердс»">
+            <img src="img/logo.png" width="140" height="55" alt="Лого «Нердс»">
           </a>
   			<nav class="main-navigation">
     			<ul>
       			<li>
-        			<a href="#">Студия</a>
+        			<a href="index.html">Студия</a>
       			</li>
       			<li>
         			<a href="#">Клиенты</a>
       			</li>
-      			<li>
+      			<li class="current navigation-current">
         			<a href="#">Магазин</a>
       			</li>
       			<li>
@@ -42,7 +43,7 @@
 		<div class="catalogue-content">
 			<div class="container main-container">
 				<section class="catalogue-column-left">
-					<form class="filters" action="" method="get">
+					<form class="filters" action="https://echo.htmlacademy.ru" method="get">
 
 						<fieldset class="filter-unit">
               <h2 class="filter-title">Стоимость:</h2>
@@ -54,8 +55,8 @@
                 <div class="toggle max-toggle"></div>
               </div>
               <div class="price-controls">
-                от <input class="min-price" type="text" value="0">
-                до <input class="max-price" type="text" value="15000">
+                <span>от</span> <input class="min-price" type="text" value="0">
+                <span>до</span> <input class="max-price" type="text" value="15000">
               </div>
 						</fieldset>
 
@@ -72,7 +73,7 @@
                 </label>
                 <label>
                 <input type="radio" name="grid" value="Резиновая">
-                <span>Резиновая</span>
+                <span class="blocked">Резиновая</span>
                 </label>
               </div>
             </fieldset>
@@ -98,7 +99,7 @@
                 </label>
                 <label>
                   <input type="checkbox" name="feature" value="cart">
-                  <span>Корзина</span>
+                  <span class="blocked">Корзина</span>
                 </label>
               </div>
             </fieldset>
@@ -110,7 +111,7 @@
 				  <div class="sort clearfix">
             <span class="sort-title">Сортировать:</span>
             <ul class="sort-type">
-              <li><a href="">по цене</a></li>
+              <li class="sort-current"><a href="">по цене</a></li>
               <li><a href="">по типу</a></li>
               <li><a href="">по функционалу</a></li>
             </ul>
@@ -155,7 +156,7 @@
             <div class="item">
               <img src="img/item-organic.jpg" width="240" height="240" alt="item pic">
               <div class="item-description">
-                <h3 class="item-title">Modern Organic Thai</h3>
+                <h3 class="item-title item-title-long">Modern Organic Thai</h3>
                 <p class="item-text">Сайт для ресторана<br>
                 быстрого питания</p>
                 <a href="" class="btn buy-btn">10000 р.</a>
@@ -183,7 +184,7 @@
             </div>
 
           </div>
-          <div class="items-controls clearfix">
+          <div class="items-controls">
             <ul class="items-controls-list">
               <li class="active">1</li>
               <li><a href="">2</a></li>
@@ -197,16 +198,16 @@
 
 		<div class="map">
       <div class="map-description">
-        <h3>Nёrds Design Studio</h3>
-        <p>191186, Санкт-Петербург,<br>
+        <h3 class="map-title">Nёrds Design Studio</h3>
+        <p class="map-text">191186, Санкт-Петербург,<br>
         ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. +7 (812) 275-75-75</p>
+        <p class="map-text">тел. +7 (812) 275-75-75</p>
         <a href="#" class="btn btn-pop-up">Напишите нам</a>
       </div>
     </div>
 
 		<footer class="main-footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="footer-column-left">
           <a href="#" class="btn-social btn-social-vk"><i class="icon-vk"></i></a>
           <a href="#" class="btn-social btn-social-fb"><i class="icon-facebook"></i></a>
