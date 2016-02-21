@@ -275,7 +275,7 @@ p {
   margin-bottom: 77px;
   padding: 0;
 }
-.feature-item:last-child {
+.feature-item:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -426,7 +426,7 @@ p {
   opacity: .25;
 }
 
-.partners a:last-child {
+.partners a:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -535,6 +535,7 @@ p {
 
 .footer-column-right {
   float: right;
+  width: 560px;
   margin: 0;
   margin-right: 10px;
   padding: 0;
